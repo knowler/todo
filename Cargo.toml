@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["Nathan Knowler <nathan@knowler.me>"]
 
 [dependencies]
+dirs = "1.0"
