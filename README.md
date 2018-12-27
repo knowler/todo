@@ -1,5 +1,5 @@
 # todo
 
-![[Build Status](https://travis-ci.com/knowler/todo)](https://travis-ci.com/knowler/todo.svg?branch=master)
+[![Build Status](https://travis-ci.com/knowler/todo.svg?branch=master)](https://travis-ci.com/knowler/todo)
 
 A todo CLI app for learning Rust.
