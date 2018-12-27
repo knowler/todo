@@ -17,7 +17,7 @@ impl App {
                     DirBuilder::new().recursive(true).create(&data).unwrap();
                     println!("Created todos storage at {}", &data);
                 }
-            },
+            }
             None => println!("Can't find local data directory!"),
         }
     }
