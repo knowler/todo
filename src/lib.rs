@@ -8,10 +8,7 @@ impl App {
         let path = "todos";
 
         if !Path::new(path).exists() {
-            DirBuilder::new()
-                .recursive(true)
-                .create(path)
-                .unwrap();
+            DirBuilder::new().recursive(true).create(path).unwrap();
         }
     }
 }
