@@ -20,4 +20,3 @@ pub enum Cli {
         complete: bool,
     },
 }
-

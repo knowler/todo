@@ -1,6 +1,6 @@
 use structopt::StructOpt;
 
-use todo::{Cli, Cli::*, Task, Project};
+use todo::{Cli, Cli::*, Project, Task};
 
 fn main() {
     match Cli::from_args() {
