@@ -1,0 +1,64 @@
+# Project meta
+name = "Landing Page"
+opened = 2019-01-31T16:24:00Z
+
+# Tasks
+[[task]]
+name = "Implement form integration"
+description = "The email collection form at the bottom of the page"
+priority = 2
+# Maybe there's a better way of doing this
+estimation.hours = 2
+estimation.minutes = 30
+created = 2019-02-09T14:00:00Z
+
+# Example of a completed task
+[[task]]
+name = "Mobile view"
+description = "Implement the mobile view"
+created = 2019-02-01T09:27:00Z
+completed = 2019-02-02T15:11:00Z
+
+  [[task.owner]]
+  person = "Nathan Knowler <nathan@knowler.me>"
+
+  [[task.assignee]]
+  person = "Nathan Knowler <nathan@knowler.me>"
+
+  [[task.entry]]
+  start = 2019-02-01T09:27:00Z
+  end = 2019-02-01T11:55:00Z
+
+    [[task.entry.note]]
+    content = ""
+    time = 2019-02-01T10:20:00Z
+
+    [[task.entry.commit]]
+    origin = "https://github.com/knowler/landing-page.git"
+    ref = "c2116936d856cf7491528f0b5b307c9aff461903"
+
+  [[task.entry]]
+  start = 2019-02-01T13:00:00Z
+  end = 2019-02-01T15:20:00Z
+
+  [[task.entry]]
+  start = 2019-02-01T15:40:00Z
+  end = 2019-02-01T17:35:00Z
+
+  [[task.entry]]
+  start = 2019-02-02T07:40:00Z
+  end = 2019-02-02T10:30:00Z
+
+  [[task.entry]]
+  start = 2019-02-02T10:40:00Z
+  end = 2019-02-02T12:37:00Z
+
+  [[task.entry]]
+  start = 2019-02-02T13:10:00Z
+  end = 2019-02-02T15:11:00Z
+
+# Non-task focused time entries are added to a unnamed task
+[[task]]
+  [[task.entry]]
+  start = 2019-02-09T11:47:14Z
+  end = 2019-02-09T14:00:00Z

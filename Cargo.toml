@@ -2,6 +2,8 @@
 name = "todo"
 version = "0.1.0"
 authors = ["Nathan Knowler <nathan@knowler.me>"]
+edition = "2018"
 
 [dependencies]
 dirs = "1.0"
+structopt = "0.2.14"

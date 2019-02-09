@@ -2,4 +2,4 @@
 
 [![Build Status](https://travis-ci.com/knowler/todo.svg?branch=master)](https://travis-ci.com/knowler/todo)
 
-A todo CLI app for learning Rust.
+See the `spec` directory for proposed usage/storage.
