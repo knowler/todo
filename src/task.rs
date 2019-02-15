@@ -1,5 +1,8 @@
+use serde_derive::{Deserialize, Serialize};
+
+#[derive(Debug, Serialize, Deserialize)]
 pub struct Task {
-    name: String,
+    pub name: String,
 }
 
 impl Task {
